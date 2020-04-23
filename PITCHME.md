@@ -40,9 +40,11 @@
 
 ---
 
-## 継続的インテグレーション(CI)の発生
+### 継続的インテグレーション(CI)の発生
 
-![マーチさん](https://upload.wikimedia.org/wikipedia/commons/3/39/Grady_Booch%2C_CHM_2011_2_cropped.jpg)
+IBMの(ラショナル)ソフトウェア統合開発環境開発主席技術者だったブーチさんが提唱した**考え方**。
+
+![ブーチさん](https://upload.wikimedia.org/wikipedia/commons/3/39/Grady_Booch%2C_CHM_2011_2_cropped.jpg)
 
 
 ---
