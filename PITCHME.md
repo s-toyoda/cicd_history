@@ -40,6 +40,13 @@
 
 ---
 
+## 継続的インテグレーション(CI)の発生
+
+![マーチさん](https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%A9%E3%83%87%E3%82%A3%E3%83%BB%E3%83%96%E3%83%BC%E3%83%81#/media/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Grady_Booch,_CHM_2011_2_cropped.jpg)
+
+
+---
+
 ## CI/CDの発生
 
 ---
