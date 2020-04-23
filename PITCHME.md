@@ -57,7 +57,9 @@ IBMのラショナル（ソフトウェア統合開発環境）開発主席技�
 
 ### 皆さんも経験ないですか？
 
-ひとつの結構長めのドキュメントを複数人数で作るときにはメインとなる
+ひとつの結構長めのドキュメントを複数人数で作るときには**まとめ役**がいないと大混乱すると思います
+
+![大混乱](https://1.bp.blogspot.com/-Ru6bsjOHWQE/XlhztsEIQHI/AAAAAAABXjM/aUAeMwoo00MayriF_v2tWs91kppAhBRUwCNcBGAsYHQ/s1600/figure_panic.png)
 
 ---
 
