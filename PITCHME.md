@@ -164,6 +164,61 @@ CIではテスト自動化まででしたが、テストまで完了したソフ
 
 ---
 
+### コード管理者がうまいこと複数の成果物を統合します
+
+※変更規模がでかいとかなり時間がかかります
+![コーディング](https://2.bp.blogspot.com/-WKhyux3zjI8/XASwaSwkEGI/AAAAAAABQZ4/5csR5XWpXNoxbA-cvkPm-SdeSeab1lkNACLcBGAs/s800/computer_programming_woman.png)
+
+---
+
+### コード管理者からテスト部門へ引き渡されます
+
+![渡す](https://1.bp.blogspot.com/-_kT-8xlbW08/V2vYKQv2_lI/AAAAAAAA78E/RBEwIoQAdKMXycaWL4HVb_Z1LFD7MSr5ACLcB/s800/kumiawase_business.png)
+
+---
+
+### 設計書からテスト設計書を作成します
+
+![設計書](https://1.bp.blogspot.com/-NThogaToW7c/Xbo7E1rzVJI/AAAAAAABVyY/XPEsejVWiQkyDDHCprIiZD4ZbD9bkwXrQCNcBGAsYHQ/s1600/document_sekkeisyo.png)
+
+---
+
+### テストを実施します
+
+![不合格](https://3.bp.blogspot.com/-7y-GhxFEFU4/W1a4nOtMdKI/AAAAAAABNgw/ae6kkUDrb6oxofm7A2EGg31ZmezQ6IjtACLcBGAs/s800/document_shinsa_fugoukaku.png)
+
+---
+
+### バグ発見結果が開発部門へ
+
+![バグ](https://1.bp.blogspot.com/-PYOsJAMddQI/WdyDTQ-OjQI/AAAAAAABHbU/wg8mS8AFANYaZOKreTrdJhPPUochYCkDQCLcBGAs/s800/character_program_shutdown.png)
+
+---
+
+### バグを修正します
+
+![頑張る](https://1.bp.blogspot.com/-opoSCyJN0pY/XBC4qhz_PzI/AAAAAAABQ1U/tnvdH2eK8cwbhchvgibqNd9O5j6eaAXFwCLcBGAs/s800/computer_kurayami_woman.png)
+
+---
+
+### できたコードをコード管理者に渡します
+
+![渡す](https://1.bp.blogspot.com/-_kT-8xlbW08/V2vYKQv2_lI/AAAAAAAA78E/RBEwIoQAdKMXycaWL4HVb_Z1LFD7MSr5ACLcB/s800/kumiawase_business.png)
+
+---
+
+### コード管理者がまた成果物を統合します
+
+![コーディング](https://2.bp.blogspot.com/-WKhyux3zjI8/XASwaSwkEGI/AAAAAAABQZ4/5csR5XWpXNoxbA-cvkPm-SdeSeab1lkNACLcBGAs/s800/computer_programming_woman.png)
+
+---
+
+### コード管理者からテスト部門へ引き渡されテストされます
+
+![合格](https://1.bp.blogspot.com/-5HpqQ1WibQM/W1a4njkhUoI/AAAAAAABNg0/EeLVdx02NAQCaxN1rRO3_-tvZi8aiRHywCLcBGAs/s800/document_shinsa_goukaku.png)
+
+---
+
 ## CI/CDを取り入れた開発フロー
 
 ---
