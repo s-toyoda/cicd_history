@@ -471,6 +471,10 @@ CIではテスト自動化まででしたが、テストまで完了したソフ
 
 ---
 
+![AWS](http://www.keencomputer.com/media/k2/items/cache/5b62d01506bd8a53b6c4928e25fa9b8a_XL.jpg)
+
+---
+
 ## 実際使われてるの？
 
 ---
