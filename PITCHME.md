@@ -273,6 +273,13 @@ CIではテスト自動化まででしたが、テストまで完了したソフ
 
 継続的デリバリーからさらに本番環境の更新まで自動的に行うという考え方。
 
+---
+
+### CDの構成要素
+
+1. ステージング環境へ自動デプロイ：ツール
+1. リリース判定：開発者が実施※このフェーズがない場合も
+1. 本番環境へ自動デプロイ：ツール
 
 ---
 
@@ -284,9 +291,80 @@ CIではテスト自動化まででしたが、テストまで完了したソフ
 
 ![CI/CD/CD](https://cloudbees.techmatrix.jp/wp-content/uploads/2018/03/cd_2.png)
 
-
+---
 
 ## CI/CDを取り入れた開発フロー
+
+さっきの開発フローと比較してみましょう
+
+---
+
+### 要件から設計書ができます
+
+アーキテクトからコーダ向けの設計書が来ます。
+![設計書](https://1.bp.blogspot.com/-NThogaToW7c/Xbo7E1rzVJI/AAAAAAABVyY/XPEsejVWiQkyDDHCprIiZD4ZbD9bkwXrQCNcBGAsYHQ/s1600/document_sekkeisyo.png)
+
+---
+
+### 分担を決めます
+
+![分担](https://2.bp.blogspot.com/-08jWQssqg_U/V5ND5RxqiuI/AAAAAAAA8fQ/aauvTJO2JYQoZrq-PEWkwimXA9gOHh2lgCLcB/s800/computer_hacker_white_syuudan.png)
+
+---
+
+### コーディングします
+
+※テストコードも一緒に作成します
+※要件すべてではなく部分的な作成を実施します
+![コーディング](https://2.bp.blogspot.com/-WKhyux3zjI8/XASwaSwkEGI/AAAAAAABQZ4/5csR5XWpXNoxbA-cvkPm-SdeSeab1lkNACLcBGAs/s800/computer_programming_woman.png)
+
+---
+
+### コード管理システムにコミットします
+
+※Gitとかが使われます
+![コミット](https://2.bp.blogspot.com/-Q66xJ0vzVHY/WXcRFLdmO_I/AAAAAAABFp4/UN7ZAuwGuAY10R-2dxRxI9UMNSy-5ztFQCLcBGAs/s800/computer_server_panku.png)
+
+---
+
+### 自動的にテストが実行されます
+
+![不合格](https://3.bp.blogspot.com/-7y-GhxFEFU4/W1a4nOtMdKI/AAAAAAABNgw/ae6kkUDrb6oxofm7A2EGg31ZmezQ6IjtACLcBGAs/s800/document_shinsa_fugoukaku.png)
+
+---
+
+### 修正します
+
+![コーディング](https://2.bp.blogspot.com/-WKhyux3zjI8/XASwaSwkEGI/AAAAAAABQZ4/5csR5XWpXNoxbA-cvkPm-SdeSeab1lkNACLcBGAs/s800/computer_programming_woman.png)
+
+---
+
+### コード管理システムにコミットします
+
+![コミット](https://2.bp.blogspot.com/-Q66xJ0vzVHY/WXcRFLdmO_I/AAAAAAABFp4/UN7ZAuwGuAY10R-2dxRxI9UMNSy-5ztFQCLcBGAs/s800/computer_server_panku.png)
+
+---
+
+### 自動的にテストが実行されます
+
+![合格](https://1.bp.blogspot.com/-5HpqQ1WibQM/W1a4njkhUoI/AAAAAAABNg0/EeLVdx02NAQCaxN1rRO3_-tvZi8aiRHywCLcBGAs/s800/document_shinsa_goukaku.png)
+
+---
+
+### レビューが実施されます
+
+![コーディング](https://2.bp.blogspot.com/-WKhyux3zjI8/XASwaSwkEGI/AAAAAAABQZ4/5csR5XWpXNoxbA-cvkPm-SdeSeab1lkNACLcBGAs/s800/computer_programming_woman.png)
+
+---
+
+### コード管理者がリリース許可します
+
+![合格](https://1.bp.blogspot.com/-5HpqQ1WibQM/W1a4njkhUoI/AAAAAAABNg0/EeLVdx02NAQCaxN1rRO3_-tvZi8aiRHywCLcBGAs/s800/document_shinsa_goukaku.png)
+
+---
+
+### 自動デプロイが実行されます
+![更新](https://2.bp.blogspot.com/--FiY869JmSg/Ul5qUphSecI/AAAAAAAAZDQ/Hs8WpL9y848/s800/pop_koushin.png)
 
 ---
 
