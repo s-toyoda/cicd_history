@@ -130,11 +130,14 @@ CIではテスト自動化まででしたが、テストまで完了したソフ
 
 ### 実際しんどかったのです
 
+WEBサービス会社のサービスリリースを例に説明します
+
 ---
 
 ### 要件から設計書ができます
 
 アーキテクトからコーダ向けの設計書が来ます。
+※マーケティングなどが分析した市場動向から新機能の要件が降りて来るみたいな感じです
 ![設計書](https://1.bp.blogspot.com/-NThogaToW7c/Xbo7E1rzVJI/AAAAAAABVyY/XPEsejVWiQkyDDHCprIiZD4ZbD9bkwXrQCNcBGAsYHQ/s1600/document_sekkeisyo.png)
 
 ---
@@ -216,6 +219,60 @@ CIではテスト自動化まででしたが、テストまで完了したソフ
 ### コード管理者からテスト部門へ引き渡されテストされます
 
 ![合格](https://1.bp.blogspot.com/-5HpqQ1WibQM/W1a4njkhUoI/AAAAAAABNg0/EeLVdx02NAQCaxN1rRO3_-tvZi8aiRHywCLcBGAs/s800/document_shinsa_goukaku.png)
+
+---
+
+### リリース版を作成します
+
+![ゴールデンディスク](https://4.bp.blogspot.com/-47HPph-iWmc/VkxL08L88YI/AAAAAAAA0qk/JNzwMJo7cno/s800/music_gold_disc.png)
+
+---
+
+### リリース作業担当部門へ出荷します
+
+※インフラ部門がリリースする場合もあれば運用部門がリリースする場合もあります
+![渡す](https://1.bp.blogspot.com/-_kT-8xlbW08/V2vYKQv2_lI/AAAAAAAA78E/RBEwIoQAdKMXycaWL4HVb_Z1LFD7MSr5ACLcB/s800/kumiawase_business.png)
+
+---
+
+### リリースタイミングを見極めます
+
+※サービス影響が少ない日を狙うとかやってましたね
+![縄跳び](https://2.bp.blogspot.com/-ALq4kRUR9Pg/XNE_J6lEBxI/AAAAAAABSvE/FOcjozfVJZUFleF5x6XoQwi7rfNLDkbiACLcBGAs/s800/kids_oonawatobi_hairenai.png)
+
+---
+
+### 更新を実施します
+
+![更新](https://2.bp.blogspot.com/--FiY869JmSg/Ul5qUphSecI/AAAAAAAAZDQ/Hs8WpL9y848/s800/pop_koushin.png)
+
+---
+
+### 更新後に問題が出てないか監視します
+
+![監視](https://2.bp.blogspot.com/-TPA7euWs3Z4/V5NEZlqOGfI/AAAAAAAA8i4/RkrUOdTyU7ok1eHgfFTsjyrwKmxEykLmgCLcB/s800/pool_kanshiin.png)
+
+---
+
+### 問題が見つかりました
+
+![溺れる](https://3.bp.blogspot.com/-frz3qhFLPfo/Wb8ge1cvrjI/AAAAAAABGx8/Xcs_udENP1cnS42aDff9UNhB5tACoDN0QCLcBGAs/s800/kyuujo_ukiwa_tasukeru.png)
+
+---
+
+### 更新前に戻します
+
+![更新](https://2.bp.blogspot.com/--FiY869JmSg/Ul5qUphSecI/AAAAAAAAZDQ/Hs8WpL9y848/s800/pop_koushin.png)
+
+---
+
+### いろんな人がいろんなところに謝罪します
+
+![ごめん](https://3.bp.blogspot.com/-vniEhW_MIto/Vf-ejdjvkiI/AAAAAAAAyQc/NRwtTv2bn4w/s800/syazai_kaiken.png)
+
+---
+
+## なんとも胃が痛くなる話ですね
 
 ---
 
