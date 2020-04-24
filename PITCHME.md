@@ -6,7 +6,7 @@
 
 ---
 
-継続的インテグレーション(CI)及び継続的デプロイ(CD)は、"いかに開発に掛かったコストを早く回収するか"という **ビジネスサイド** からの要求に対して **開発サイド** が出した改善案です。
+継続的インテグレーション(CI)及び継続的デプロイ(CD)は、"いかに開発に掛かったコストを早く回収するか"と"いかにユーザから受けたフィードバックを製品に反映するか"という **ビジネスサイド** からの要求に対して **開発サイド** が出した改善案です。
 
 ---
 
@@ -14,7 +14,7 @@
 
 ---
 
-いかに早く開発に掛かったコストを回収するか
+いかに早くリリースするか
 
 ---
 
@@ -114,6 +114,10 @@ CIではテスト自動化まででしたが、テストまで完了したソフ
 
 ---
 
+**継続的インテグレーション(CI)は運用/インフラチームの改善です**
+
+---
+
 ### こんな分け方
 
 ![CI/CD/CD](https://cloudbees.techmatrix.jp/wp-content/uploads/2018/03/cd_2.png)
@@ -122,21 +126,45 @@ CIではテスト自動化まででしたが、テストまで完了したソフ
 
 ## 何故CI/CDは開発者に受け入れられたのか
 
+---
+
+### 実際しんどかったのです
 
 ---
 
-## DevOpsというバズワードの発生
+### 要件から設計書ができます
 
+アーキテクトからコーダ向けの設計書が来ます。
+![設計書](https://1.bp.blogspot.com/-NThogaToW7c/Xbo7E1rzVJI/AAAAAAABVyY/XPEsejVWiQkyDDHCprIiZD4ZbD9bkwXrQCNcBGAsYHQ/s1600/document_sekkeisyo.png)
 
 ---
 
-## DevOpsはなぜ開発者に受け入れられたのか
+### 分担を決めます
 
+![分担](https://2.bp.blogspot.com/-08jWQssqg_U/V5ND5RxqiuI/AAAAAAAA8fQ/aauvTJO2JYQoZrq-PEWkwimXA9gOHh2lgCLcB/s800/computer_hacker_white_syuudan.png)
+
+---
+
+### コーディングします
+
+![コーディング](https://2.bp.blogspot.com/-WKhyux3zjI8/XASwaSwkEGI/AAAAAAABQZ4/5csR5XWpXNoxbA-cvkPm-SdeSeab1lkNACLcBGAs/s800/computer_programming_woman.png)
+
+---
+
+### レビューします
+
+レビュー会議なるものを実施します ※しない開発組織もあります。
+![レビュー](https://1.bp.blogspot.com/-tonUHy9fDEk/XnLn7EL4lvI/AAAAAAABX0k/HvgZidpGmQc7-Qe7LDsp00TfWltpuwkSwCNcBGAsYHQ/s1600/computer_mob_programming.png)
+
+---
+
+### できたコードをコード管理者に渡します
+
+![渡す](https://1.bp.blogspot.com/-_kT-8xlbW08/V2vYKQv2_lI/AAAAAAAA78E/RBEwIoQAdKMXycaWL4HVb_Z1LFD7MSr5ACLcB/s800/kumiawase_business.png)
 
 ---
 
 ## CI/CDを取り入れた開発フロー
-
 
 ---
 
