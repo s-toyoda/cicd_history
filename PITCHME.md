@@ -304,7 +304,7 @@ CIではテスト自動化まででしたが、テストまで完了したソフ
 ### 課題がチケット登録されます
 
 アーキテクトからコーダ向けの設計書が来ます。
-![チケット](https://1.bp.blogspot.com/-NThogaToW7c/Xbo7E1rzVJI/AAAAAAABVyY/XPEsejVWiQkyDDHCprIiZD4ZbD9bkwXrQCNcBGAsYHQ/s1600/document_sekkeisyo.png)
+![チケット](https://3.bp.blogspot.com/-xb_ckrAZncM/WKFjJgoAREI/AAAAAAABBv4/tvZ4ULkroBIvtXae1af97TRX6h4PCjTXACLcB/s800/ticket_shopping_woman.png)
 
 ---
 
