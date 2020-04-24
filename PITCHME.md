@@ -156,6 +156,7 @@
 
 ### 更新を実施します
 
+※メンテナンスとしてサービス停止が発生します
 ![更新](https://2.bp.blogspot.com/--FiY869JmSg/Ul5qUphSecI/AAAAAAAAZDQ/Hs8WpL9y848/s800/pop_koushin.png)
 
 ---
@@ -174,6 +175,7 @@
 
 ### 更新前に戻します
 
+※メンテナンスとしてサービス停止が発生します
 ![更新](https://2.bp.blogspot.com/--FiY869JmSg/Ul5qUphSecI/AAAAAAAAZDQ/Hs8WpL9y848/s800/pop_koushin.png)
 
 ---
@@ -293,22 +295,22 @@ CIではテスト自動化まででしたが、テストまで完了したソフ
 
 ---
 
-## CI/CDを取り入れた開発フロー
+## CI/CDを取り入れた十年後の開発フロー
 
 さっきの開発フローと比較してみましょう
 
 ---
 
-### 要件から設計書ができます
+### 課題がチケット登録されます
 
 アーキテクトからコーダ向けの設計書が来ます。
-![設計書](https://1.bp.blogspot.com/-NThogaToW7c/Xbo7E1rzVJI/AAAAAAABVyY/XPEsejVWiQkyDDHCprIiZD4ZbD9bkwXrQCNcBGAsYHQ/s1600/document_sekkeisyo.png)
+![チケット](https://1.bp.blogspot.com/-NThogaToW7c/Xbo7E1rzVJI/AAAAAAABVyY/XPEsejVWiQkyDDHCprIiZD4ZbD9bkwXrQCNcBGAsYHQ/s1600/document_sekkeisyo.png)
 
 ---
 
-### 分担を決めます
+### アサインされます
 
-![分担](https://2.bp.blogspot.com/-08jWQssqg_U/V5ND5RxqiuI/AAAAAAAA8fQ/aauvTJO2JYQoZrq-PEWkwimXA9gOHh2lgCLcB/s800/computer_hacker_white_syuudan.png)
+![アサイン](https://2.bp.blogspot.com/-RZIGcYRx8wg/WKFjIvHf1SI/AAAAAAABBvY/6F1Xjhr0m6kd4jXszElx8P3oq9VO8IZMgCLcB/s800/ticket_get_woman.png)
 
 ---
 
@@ -364,11 +366,107 @@ CIではテスト自動化まででしたが、テストまで完了したソフ
 ---
 
 ### 自動デプロイが実行されます
+
+※ダウンタイムゼロ
 ![更新](https://2.bp.blogspot.com/--FiY869JmSg/Ul5qUphSecI/AAAAAAAAZDQ/Hs8WpL9y848/s800/pop_koushin.png)
 
 ---
 
+### サービスの健全性チェック
+![テレメトリ](https://2.bp.blogspot.com/-DheUgVLPlj8/VXOTwkzcayI/AAAAAAAAuDw/rQqfnbAD9no/s800/graph12_kaisou.png)
+
+---
+
+### 自動的に更新前に戻します
+
+※ダウンタイムゼロ
+![更新](https://2.bp.blogspot.com/--FiY869JmSg/Ul5qUphSecI/AAAAAAAAZDQ/Hs8WpL9y848/s800/pop_koushin.png)
+
+---
+
+## 変わった点
+
+- ソースコードのマージ作業者がいなくなった（ツールに置き換わった）
+- テスターがいなくなった(開発チームのテスト作成支援部分に統合された)
+- デプロイ作業者がいなくなった（ツールに置き換わった）
+- 更新の粒度が小さくなった（ユーザが変わったことに気が付かないレベルで）
+- ゼロダウンタイム
+- などなど
+
+---
+
+## ツール：課題管理ツール
+
+もう設計書を書いて作るという文化はなくなり、課題に対して解決する変更という形でコード作成がお行われている。
+
+### Redmine
+### JIRA
+
+
+---
+
+## ツール：ソースコード管理ソフトウェア
+
+（10年前に使われてなかったわけではないが）
+ほとんどのソフトが淘汰されてGitに置き換わった。
+
+### GitHub(com(サービス) or Enterprise(オンプレ))
+### GitLab(オンプレ)
+### Bitbucket(サービス)
+
+---
+
+## ツール：自動テスト
+
+無数の自動テストツール、フレームワークを利用。
+
+### 静的解析ツール：infer(C言語系), RoboCop(Ruby系)...
+### 単体テストツール：Junit(Java), RSpec(Ruby系)...
+### 結合テストツール：Selenium, Turnip...
+書ききれないほど膨大になった。
+
+---
+
+## ツール：CIツール
+
+各社それぞれ自作で作っていた更新バッチがツールに移行した。
+
+### Jenkins(オンプレ)
+### GitLab(オンプレ)
+### CircleCI(サービス)
+### TravisCI(サービス)
+### Github Action(本番で使う例はまだかな？)(サービス)
+### 各種パブリッククラウドが用意するツール
+
+---
+
+## ツール：インフラ構築ツール
+
+環境構築などのインフラ環境も仮想化、コンテナ化が進んだ。
+
+### ハイパーバイザ型：vmware各製品, kvm, Hyper-V, VirtualBox...
+### コンテナ型：Docker, LXC
+### クラウドサービス構築：各種パブリッククラウド内のサービス
+
+---
+
+## ツール：サーバ設定ツール(プロビジョニングツール)
+
+サーバ構築時のアプリケーションインストールや設定などの自動化ツールも百花繚乱。
+
+### Chef(ツール)
+### Capistrano(ツール)
+### Ansible(ツール)
+### Fabric(ツール)
+### Puppet(ツール)
+### Pulumi(クラウド特化型：サービス)
+### Telaform(クラウド特化型：サービス)
+などなど、最近もあたらしいツール、サービスが出現中
+
+---
+
 ## AWSではどんな感じか？
+
 
 
 ---
