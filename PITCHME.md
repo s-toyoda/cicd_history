@@ -317,7 +317,6 @@ CIではテスト自動化まででしたが、テストまで完了したソフ
 ### コーディングします
 
 ※テストコードも一緒に作成します
-※要件すべてではなく部分的な作成を実施します
 ![コーディング](https://2.bp.blogspot.com/-WKhyux3zjI8/XASwaSwkEGI/AAAAAAABQZ4/5csR5XWpXNoxbA-cvkPm-SdeSeab1lkNACLcBGAs/s800/computer_programming_woman.png)
 
 ---
@@ -377,13 +376,6 @@ CIではテスト自動化まででしたが、テストまで完了したソフ
 
 ---
 
-### 自動的に更新前に戻します
-
-※ダウンタイムゼロ
-![更新](https://2.bp.blogspot.com/--FiY869JmSg/Ul5qUphSecI/AAAAAAAAZDQ/Hs8WpL9y848/s800/pop_koushin.png)
-
----
-
 ## 変わった点
 
 - ソースコードのマージ作業者がいなくなった（ツールに置き換わった）
@@ -399,11 +391,10 @@ CIではテスト自動化まででしたが、テストまで完了したソフ
 
 もう設計書を書いて作るという文化はなくなり、課題に対して解決する変更という形でコード作成がお行われている。
 
-### Backlog
-### Redmine
-### JIRA
-### Planio
-などなど
+- Backlog
+- Redmine
+- JIRA
+- Planio
 
 ---
 
@@ -412,10 +403,9 @@ CIではテスト自動化まででしたが、テストまで完了したソフ
 （10年前に使われてなかったわけではないが）
 ほとんどのソフトが淘汰されてGitを使ったソフト、サービスに置き換わった。
 
-### GitHub(com(サービス) or Enterprise(オンプレ))
-### GitLab(オンプレ)
-### Bitbucket(サービス)
-などなど
+- GitHub(サービス、オンプレ))
+- GitLab(オンプレ)
+- Bitbucket(サービス)
 
 ---
 
@@ -423,10 +413,10 @@ CIではテスト自動化まででしたが、テストまで完了したソフ
 
 無数の自動テストツール、フレームワークを利用。
 
-### 静的解析ツール：infer(C言語系), RoboCop(Ruby系)...
-### 単体テストツール：Junit(Java), RSpec(Ruby系)...
-### 結合テストツール：Selenium, Turnip...
-書ききれないほど膨大になった。
+- 静的解析ツール：infer(C言語系), RoboCop(Ruby系)...
+- 単体テストツール：Junit(Java), RSpec(Ruby系)...
+- 結合テストツール：Selenium, Turnip...
+書ききれないほど膨大
 
 ---
 
@@ -434,13 +424,12 @@ CIではテスト自動化まででしたが、テストまで完了したソフ
 
 各社それぞれ自作で作っていた更新バッチがツールに移行した。
 
-### Jenkins(オンプレ)
-### GitLab(オンプレ)
-### CircleCI(サービス)
-### TravisCI(サービス)
-### Github Action(本番で使う例はまだかな？)(サービス)
-### 各種パブリッククラウドが用意するツール
-などなど
+- Jenkins(オンプレ)
+- GitLab(オンプレ)
+- CircleCI(サービス)
+- TravisCI(サービス)
+- Github Action(サービス)
+- 各種パブリッククラウドが用意するツール
 
 ---
 
@@ -448,10 +437,9 @@ CIではテスト自動化まででしたが、テストまで完了したソフ
 
 環境構築などのインフラ環境も仮想化、コンテナ化が進んだ。
 
-### ハイパーバイザ型：vmware各製品, kvm, Hyper-V, VirtualBox...
-### コンテナ型：Docker, LXC
-### クラウドサービス構築：各種パブリッククラウド内のサービス
-などなど
+- ハイパーバイザ型：vmware各製品, kvm, Hyper-V, VirtualBox...
+- コンテナ型：Docker, LXC
+- クラウドサービス構築：Pulumi, Telaform
 
 ---
 
@@ -459,14 +447,11 @@ CIではテスト自動化まででしたが、テストまで完了したソフ
 
 サーバ構築時のアプリケーションインストールや設定などの自動化ツールも百花繚乱。
 
-### Chef(ツール)
-### Capistrano(ツール)
-### Ansible(ツール)
-### Fabric(ツール)
-### Puppet(ツール)
-### Pulumi(クラウド特化型：サービス)
-### Telaform(クラウド特化型：サービス)
-などなど、最近もあたらしいツール、サービスが出現中
+- Chef(ツール)
+- Capistrano(ツール)
+- Ansible(ツール)
+- Fabric(ツール)
+- Puppet(ツール)
 
 ---
 
