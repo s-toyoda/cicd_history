@@ -378,5 +378,17 @@ CIではテスト自動化まででしたが、テストまで完了したソフ
 
 # おしまい
 
-
 ---
+
+# このドキュメント
+
+- ![プレゼン形式](https://gitpitch.com/s-toyoda/cicd_history)
+- ![ドキュメント形式](https://github.com/s-toyoda/cicd_history/blob/master/PITCHME.md)
+
+# 参考資料
+
+## 継続的インテグレーションの説明でいい感じの物
+
+- ![さくらのナレッジ：継続的インテグレーション・継続的デリバリー – 「若手エンジニアのためのDevOps入門」(4)](https://knowledge.sakura.ad.jp/13251/)
+- ![aws:継続的インテグレーションとは?](https://aws.amazon.com/jp/devops/continuous-integration/)
+- ![wikipedia](https://ja.wikipedia.org/wiki/%E7%B6%99%E7%B6%9A%E7%9A%84%E3%82%A4%E3%83%B3%E3%83%86%E3%82%B0%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3)
